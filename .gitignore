@@ -1,2 +1,16 @@
-### Docker ###
+###> mac spec ###
+.DS_Store
+###< mac spec###
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> Docker ###
 .docker/data/*
+###< Docker ###
